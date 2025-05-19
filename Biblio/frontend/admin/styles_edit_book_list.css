@@ -1,0 +1,39 @@
+/* Styles généraux */
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styles pour la liste des livres */
+ul.book-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.book-item {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.book-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.book-item a:hover {
+    color: #0056b3;
+}
+
+.book-item:hover {
+    background-color: #e9e9e9;
+}
+

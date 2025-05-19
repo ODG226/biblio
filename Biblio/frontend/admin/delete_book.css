@@ -1,0 +1,61 @@
+
+
+/* Style pour le conteneur principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre */
+.container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style pour la liste des livres */
+.book-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style pour chaque item dans la liste de livres */
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le texte du titre du livre */
+.book-item span {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Style pour le bouton de suppression */
+.book-item button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Changement de couleur du bouton au survol */
+.book-item button:hover {
+    background-color: #c0392b;
+}

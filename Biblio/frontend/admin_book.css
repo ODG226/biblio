@@ -1,0 +1,72 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  
+    justify-content: center;
+    align-items: center;
+ 
+    color: #333;
+}
+
+/* Container principal */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Titre principal */
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Liste des options */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 15px;
+}
+
+/* Liens des options */
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #0056b3;
+}
+
+/* Styles responsives */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .menu li a {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
